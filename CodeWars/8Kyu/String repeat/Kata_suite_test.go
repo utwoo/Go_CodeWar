@@ -9,5 +9,5 @@ import (
 
 func TestMultiply(t *testing.T) {
 	RegisterFailHandler(Fail)
-	RunSpecs(t, "Is my friend cheating")
+	RunSpecs(t, "String repeat")
 }
