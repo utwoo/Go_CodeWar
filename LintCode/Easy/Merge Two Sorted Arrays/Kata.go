@@ -3,7 +3,7 @@ package kata
 // Kata http://www.lintcode.com/en/problem/merge-two-sorted-arrays/
 func mergeSortedArray(A []int, B []int) []int {
 	var (
-		result = make([]int, 0, len(A)+len(B))
+		result []int
 		a      int
 		b      int
 	)
